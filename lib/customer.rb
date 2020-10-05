@@ -21,7 +21,7 @@ class Customer
   end
   
   def waiters
-    Meals.map do |meal|
+    meals.map do |meal|
       meal.waiter
     end
   end
